@@ -5,7 +5,7 @@ public class Q4 {
         String Y = sc.next();
         System.out.println("Please enter the name of the receiver");
         String letter = "Dear <|name|>, thanks a lot!";
-        letter=letter.replace("<|name|>", "Y");
+        letter=letter.replace("<|name|>", Y);
         System.out.println(letter);
     }
     
