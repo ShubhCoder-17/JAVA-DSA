@@ -5,10 +5,10 @@ public class Q11 {
         System.out.println("Enter your Salary");
         int Salary = sc.nextInt();
         if(Salary >= 20000){
-            System.out.println("Congratulations! You Got a Bonus and your new salary is " + (Salary + 2000));
+            System.out.println("Congratulations! You Got a Bonus and your new salary is (The Salary shown Here will be the total amount.)  Rupees " + (Salary + 2000));
         }
         else{
-            System.out.println("Sorry You are Not eligible for the Bonus");
+            System.out.println("You will get a low Bonus (The Salary shown Here will be the total amount.) Rupees " + (Salary + 1000));
         }
     }
     
